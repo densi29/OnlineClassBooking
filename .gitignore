@@ -1,0 +1,25 @@
+
+# Temporary and test files
+test_db.php
+test_db.ph
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+/config/admin_secrets.php
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor settings
+.vscode/
+
+# Temporary files and logs
+*.log
+*.tmp
+
+# Keep full database exports with personal/test account data out of Git
+/database/online_class_booking.sql

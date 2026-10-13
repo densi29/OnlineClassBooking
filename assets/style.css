@@ -1,0 +1,160 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f3f6fb;
+    color: #263248;
+    line-height: 1.6;
+}
+
+h1 {
+    color: #2347a5;
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 32px;
+}
+
+h2 {
+    color: #344563;
+    margin-top: 24px;
+}
+
+p {
+    margin: 12px 0;
+}
+
+a {
+    color: #2855c5;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+a:hover {
+    color: #1d3f98;
+    text-decoration: underline;
+}
+
+ul {
+    padding-left: 24px;
+}
+
+li {
+    margin-bottom: 12px;
+}
+
+form {
+    max-width: 520px;
+    margin: 22px 0;
+    padding: 26px;
+    background: #ffffff;
+    border: 1px solid #e1e7f0;
+    border-radius: 12px;
+    box-shadow: 0 4px 14px rgba(28, 45, 80, 0.08);
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: 600;
+    color: #344563;
+}
+
+input,
+select,
+textarea {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    margin: 7px 0 18px;
+    border: 1px solid #cbd5e1;
+    border-radius: 7px;
+    background: #ffffff;
+    color: #263248;
+    font-size: 15px;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+    outline: 2px solid #9db7f5;
+    border-color: #2855c5;
+}
+
+button {
+    padding: 12px 20px;
+    border: none;
+    border-radius: 7px;
+    background: #2855c5;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #1d3f98;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #ffffff;
+    margin: 22px 0;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 3px 12px rgba(28, 45, 80, 0.06);
+}
+
+th,
+td {
+    padding: 13px;
+    border: 1px solid #dce3ed;
+    text-align: left;
+    vertical-align: top;
+}
+
+th {
+    background: #e8eefb;
+    color: #263f7c;
+}
+
+tr:hover {
+    background: #f7f9fd;
+}
+
+td form {
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-shadow: none;
+    background: transparent;
+}
+
+td form button {
+    white-space: nowrap;
+}
+
+@media (max-width: 768px) {
+    body {
+        padding: 18px;
+    }
+
+    h1 {
+        font-size: 26px;
+    }
+
+    table {
+        display: block;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+
+    form {
+        padding: 18px;
+    }
+}
