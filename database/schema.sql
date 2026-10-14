@@ -1,9 +1,4 @@
-CREATE DATABASE IF NOT EXISTS online_class_booking
-  CHARACTER SET utf8mb4
-  COLLATE utf8mb4_general_ci;
-
-USE online_class_booking;
-
+```sql
 CREATE TABLE IF NOT EXISTS students (
     id INT(11) NOT NULL AUTO_INCREMENT,
     name VARCHAR(100) NOT NULL,
@@ -47,3 +42,4 @@ CREATE TABLE IF NOT EXISTS bookings (
 ) ENGINE=InnoDB
   DEFAULT CHARSET=utf8mb4
   COLLATE=utf8mb4_general_ci;
+```

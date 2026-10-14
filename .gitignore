@@ -23,3 +23,9 @@ desktop.ini
 
 # Keep full database exports with personal/test account data out of Git
 /database/online_class_booking.sql
+# Private hosting database credentials
+/config/db.hosting.php
+
+# Local database exports and secrets
+/database/online_class_booking.sql
+/config/admin_secrets.php
